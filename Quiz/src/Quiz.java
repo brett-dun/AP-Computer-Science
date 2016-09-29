@@ -6,14 +6,9 @@ public class Quiz {
 	private int myQuestions, myTimeAllowed, myPeriod;
 	
 	public Quiz() {
-		myName = "Untitled";
-		myRetake = false;
-		myPointsAvailable = 30.0;
-		myPointsEarned = 30.0;
-		myQuestions = 10;
-		myTimeAllowed = 42;
-		myPeriod = 1;
+	this("Untitled" , false , 30.0 , 30.0 , 10 , 42 , 1); //Testing out Github
 	}
+	
 	public Quiz(String name, boolean retake, double pointsAvailable, double pointsEarned, int questions, int time, int period) {
 		myName = name;
 		myRetake = retake;
